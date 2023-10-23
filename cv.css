@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
