@@ -1,30 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
+/* Styles pour les onglets */
+.tabs {
+    list-style: none;
+    padding: 0;
 }
 
-.header {
-    text-align: center;
+.tabs li {
+    display: inline;
+    margin-right: 10px;
 }
 
-.name {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.contact {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
+/* Styles pour les sections */
 .section {
-    margin-top: 20px;
+    display: none;
 }
 
 .section-title {
     font-weight: bold;
 }
 
-.section-content {
-    margin-left: 20px;
+/* Affiche la première section par défaut */
+#experience {
+    display: block;
 }
-
